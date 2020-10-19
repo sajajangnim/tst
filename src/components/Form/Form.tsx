@@ -28,7 +28,7 @@ const Form = () : ReactElement => {
     <React.Fragment>
       <div className={styles.container}>
       <div className={styles.welcome}>
-        Welcome { name }!
+        Please input your name here.
       </div>
       <div  className={styles.formContainer}>
         <div className={styles.field}>
