@@ -33,24 +33,24 @@ const Form = () : ReactElement => {
       <div  className={styles.formContainer}>
         <div className={styles.field}>
           <div className= {styles.title}>
-            First Name
+            First name:
           </div>
           <input type="text" value={first} className={styles.input} onChange={(e) => setFirst(e.target.value)}/>
         </div>
         <div className={styles.field}>
           <div className= {styles.title}>
-            Last Name
+            Last name:
           </div>
           <input type="text" value={last} className={styles.input} onChange={(e) => setLast(e.target.value)}/>
         </div>
         <div className={styles.btn} onClick={() => postData(first, last)}>
-          Call API !
+          Enter
         </div>
       </div>
     </div>
     <SweetAlert
       show={show}
-      title= {`Halo ${name}!`}
+      title= {`Hello there, ${name}!`}
       onConfirm={() => setShow(false)}
     />
     </React.Fragment>
