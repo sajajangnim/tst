@@ -1,12 +1,14 @@
 .container {
-  width: 100vw;
-  height: 81vh;
+  width: 130vw;
+  height: 100vh;
   padding: 10px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #003879;
-  font-family: 'Segoe UI', Tahoma, Cursive, Fantasy, Serif;
+  background-color: rgb(97, 49, 165);
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 28px; 
+  font-weight: bold;
   color: white;
 
   .welcome{
@@ -38,13 +40,13 @@
     .btn {
       cursor: pointer;
       margin-top: 40px;
-      background-color: #c38d9e;
+      background-color: rgb(32, 25, 41);
       padding: 10px;
       border-radius: 5px;
       font-weight: 600;
 
       &:hover{
-        background-color: #41b3a3;
+        background-color: rgb(97, 49, 165);
       }
     }
   }
